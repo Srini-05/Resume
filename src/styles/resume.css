@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.resume-container {
+    width: 210mm; /* A4 width */
+    height: 370mm; /* Increased height */
+    margin: auto;
+    padding: 20mm; /* Add padding to avoid content touching the border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: white;
+}
+
+.resume-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 10px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-info p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.personal-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.linkedin, .portfolio {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.resume-title {
+    margin: 0;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+    color: #000000;
+}
+
+.summary {
+    font-size: 18px;
+}
+
+.summary-test {
+    font-size: 12px;
+    font-style: inherit;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.skills-list {
+    border-bottom: 2px solid #000000;
+    padding-bottom: 10px;
+}
+
+.experience-item {
+    margin-bottom: 10px;
+}
+
+.experience-header, .experience-subheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.experience-header h3, .experience-subheader h4 {
+    margin: 0;
+}
+
+.date, .chennai {
+    margin: 0;
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.name {
+    font-size: 44px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.personal-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.linkedin {
+    display: inline-block;
+    margin-right: -200px;
+    font-size: 14px;
+    margin-top: 100px;
+margin-left: -100px;
+}
+
+.portfolio {
+    display: inline-block;
+    margin-left: 2px;
+    font-size: 14px;
+    margin-top: 100px;
+}
+
+.resume-header .personal-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.experience-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 10px;
+}
+
+.project-list {
+    border-bottom: 2px solid #000000;
+    padding-bottom: 10px;
+}
+
+.Bachelor-of-Engineering, .major, .collage-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.education-details {
+    border-bottom: 2px solid #000000;
+    padding-bottom: 10px;
+}
+
+.education-details li {
+    margin-bottom: 10px; /* Reduce the margin between list items */
+}
+
+.Bachelor-of-Engineering, .major, .collage-name {
+    margin-bottom: 1px; /* Reduce the margin between these elements */
+}
+
+.Bachelor-of-Engineering h3, .major p, .collage-name p {
+    margin: 0; /* Remove default margin */
+    padding: 5px; /* Remove default padding */
+}
+.project-list ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.project-list ul li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+/* Headings */
+.summary, .skills, .experience, .project, .education, .extracurricular-activities h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+/* Subheadings */
+.ford-pro-data-tech, .Bachelor-of-Engineering h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+/* Content inside sections */
+.summary-test, .experience-list li, .project-list li, .education-details li {
+    font-size: 14px;
+}
